@@ -56,7 +56,37 @@ gsap.to(".page2>h1>span", {
   color: '#fff'
 })
 
-// 1st canvas
+// canvas loading speed js
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const canvasSection = document.querySelector(".page3 canvas");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              loadCanvas();  // Function to initialize canvas
+              observer.disconnect(); // Stop observing after loading
+          }
+      });
+  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+
+  observer.observe(canvasSection);
+});
+
+function loadCanvas() {
+  console.log("Canvas Loading...");
+  // Initialize Three.js or other 3D rendering logic here
+}
+
+
+
+
+
+
+
+
+// 1st canvas page 3
 function canvas() {
 
   const canvas = document.querySelector("canvas");
