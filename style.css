@@ -2262,6 +2262,7 @@ padding-bottom: 2.8rem;
     .sc-box .box_txt h1 {
         font-weight: 360;
         font-size: 2rem;
+        white-space: wrap;
     }
 
     .sc-box .box_txt ul li {

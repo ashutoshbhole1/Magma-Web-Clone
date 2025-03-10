@@ -103,7 +103,7 @@ function canvas() {
   });
 
   function files(index) {
-      var data = `
+    var data = `
     ./Assets/Frames img/frames00007.png
     ./Assets/Frames img/frames00010.png
     ./Assets/Frames img/frames00013.png
@@ -172,74 +172,74 @@ function canvas() {
     ./Assets/Frames img/frames00202.png
      `;
 
-//     var data = `
-// ./frames00007.png
-// ./frames00010.png
-// ./frames00013.png
-// ./frames00016.png
-// ./frames00019.png
-// ./frames00022.png
-// ./frames00025.png
-// ./frames00028.png
-// ./frames00031.png
-// ./frames00034.png
-// ./frames00037.png
-// ./frames00040.png
-// ./frames00043.png
-// ./frames00046.png
-// ./frames00049.png
-// ./frames00052.png
-// ./frames00055.png
-// ./frames00058.png
-// ./frames00061.png
-// ./frames00064.png
-// ./frames00067.png
-// ./frames00070.png
-// ./frames00073.png
-// ./frames00076.png
-// ./frames00079.png
-// ./frames00082.png
-// ./frames00085.png
-// ./frames00088.png
-// ./frames00091.png
-// ./frames00094.png
-// ./frames00097.png
-// ./frames00100.png
-// ./frames00103.png
-// ./frames00106.png
-// ./frames00109.png
-// ./frames00112.png
-// ./frames00115.png
-// ./frames00118.png
-// ./frames00121.png
-// ./frames00124.png
-// ./frames00127.png
-// ./frames00130.png
-// ./frames00133.png
-// ./frames00136.png
-// ./frames00139.png
-// ./frames00142.png
-// ./frames00145.png
-// ./frames00148.png
-// ./frames00151.png
-// ./frames00154.png
-// ./frames00157.png
-// ./frames00160.png
-// ./frames00163.png
-// ./frames00166.png
-// ./frames00169.png
-// ./frames00172.png
-// ./frames00175.png
-// ./frames00178.png
-// ./frames00181.png
-// ./frames00184.png
-// ./frames00187.png
-// ./frames00190.png
-// ./frames00193.png
-// ./frames00196.png
-// ./frames00199.png
-// ./frames00202.png
-// `;
+    //     var data = `
+    // ./frames00007.png
+    // ./frames00010.png
+    // ./frames00013.png
+    // ./frames00016.png
+    // ./frames00019.png
+    // ./frames00022.png
+    // ./frames00025.png
+    // ./frames00028.png
+    // ./frames00031.png
+    // ./frames00034.png
+    // ./frames00037.png
+    // ./frames00040.png
+    // ./frames00043.png
+    // ./frames00046.png
+    // ./frames00049.png
+    // ./frames00052.png
+    // ./frames00055.png
+    // ./frames00058.png
+    // ./frames00061.png
+    // ./frames00064.png
+    // ./frames00067.png
+    // ./frames00070.png
+    // ./frames00073.png
+    // ./frames00076.png
+    // ./frames00079.png
+    // ./frames00082.png
+    // ./frames00085.png
+    // ./frames00088.png
+    // ./frames00091.png
+    // ./frames00094.png
+    // ./frames00097.png
+    // ./frames00100.png
+    // ./frames00103.png
+    // ./frames00106.png
+    // ./frames00109.png
+    // ./frames00112.png
+    // ./frames00115.png
+    // ./frames00118.png
+    // ./frames00121.png
+    // ./frames00124.png
+    // ./frames00127.png
+    // ./frames00130.png
+    // ./frames00133.png
+    // ./frames00136.png
+    // ./frames00139.png
+    // ./frames00142.png
+    // ./frames00145.png
+    // ./frames00148.png
+    // ./frames00151.png
+    // ./frames00154.png
+    // ./frames00157.png
+    // ./frames00160.png
+    // ./frames00163.png
+    // ./frames00166.png
+    // ./frames00169.png
+    // ./frames00172.png
+    // ./frames00175.png
+    // ./frames00178.png
+    // ./frames00181.png
+    // ./frames00184.png
+    // ./frames00187.png
+    // ./frames00190.png
+    // ./frames00193.png
+    // ./frames00196.png
+    // ./frames00199.png
+    // ./frames00202.png
+    // `;
     return data.split("\n")[index];
   }
 
@@ -598,145 +598,143 @@ function canvas7() {
 
   function files(index) {
     var data = `
-
-https://thisismagma.com/assets/home/lore/seq/1.webp?2
-https://thisismagma.com/assets/home/lore/seq/2.webp?2
-https://thisismagma.com/assets/home/lore/seq/3.webp?2
-https://thisismagma.com/assets/home/lore/seq/4.webp?2
-https://thisismagma.com/assets/home/lore/seq/5.webp?2
-https://thisismagma.com/assets/home/lore/seq/6.webp?2
-https://thisismagma.com/assets/home/lore/seq/7.webp?2
-https://thisismagma.com/assets/home/lore/seq/8.webp?2
-https://thisismagma.com/assets/home/lore/seq/9.webp?2
-https://thisismagma.com/assets/home/lore/seq/10.webp?2
-https://thisismagma.com/assets/home/lore/seq/11.webp?2
-https://thisismagma.com/assets/home/lore/seq/12.webp?2
-https://thisismagma.com/assets/home/lore/seq/13.webp?2
-https://thisismagma.com/assets/home/lore/seq/14.webp?2
-https://thisismagma.com/assets/home/lore/seq/15.webp?2
-https://thisismagma.com/assets/home/lore/seq/16.webp?2
-https://thisismagma.com/assets/home/lore/seq/17.webp?2
-https://thisismagma.com/assets/home/lore/seq/18.webp?2
-https://thisismagma.com/assets/home/lore/seq/19.webp?2
-https://thisismagma.com/assets/home/lore/seq/20.webp?2
-https://thisismagma.com/assets/home/lore/seq/21.webp?2
-https://thisismagma.com/assets/home/lore/seq/22.webp?2
-https://thisismagma.com/assets/home/lore/seq/23.webp?2
-https://thisismagma.com/assets/home/lore/seq/24.webp?2
-https://thisismagma.com/assets/home/lore/seq/25.webp?2
-https://thisismagma.com/assets/home/lore/seq/26.webp?2
-https://thisismagma.com/assets/home/lore/seq/27.webp?2
-https://thisismagma.com/assets/home/lore/seq/28.webp?2
-https://thisismagma.com/assets/home/lore/seq/29.webp?2
-https://thisismagma.com/assets/home/lore/seq/30.webp?2
-https://thisismagma.com/assets/home/lore/seq/31.webp?2
-https://thisismagma.com/assets/home/lore/seq/32.webp?2
-https://thisismagma.com/assets/home/lore/seq/33.webp?2
-https://thisismagma.com/assets/home/lore/seq/34.webp?2
-https://thisismagma.com/assets/home/lore/seq/35.webp?2
-https://thisismagma.com/assets/home/lore/seq/36.webp?2
-https://thisismagma.com/assets/home/lore/seq/37.webp?2
-https://thisismagma.com/assets/home/lore/seq/38.webp?2
-https://thisismagma.com/assets/home/lore/seq/39.webp?2
-https://thisismagma.com/assets/home/lore/seq/40.webp?2
-https://thisismagma.com/assets/home/lore/seq/41.webp?2
-https://thisismagma.com/assets/home/lore/seq/42.webp?2
-https://thisismagma.com/assets/home/lore/seq/43.webp?2
-https://thisismagma.com/assets/home/lore/seq/44.webp?2
-https://thisismagma.com/assets/home/lore/seq/45.webp?2
-https://thisismagma.com/assets/home/lore/seq/46.webp?2
-https://thisismagma.com/assets/home/lore/seq/47.webp?2
-https://thisismagma.com/assets/home/lore/seq/48.webp?2
-https://thisismagma.com/assets/home/lore/seq/49.webp?2
-https://thisismagma.com/assets/home/lore/seq/50.webp?2
-https://thisismagma.com/assets/home/lore/seq/51.webp?2
-https://thisismagma.com/assets/home/lore/seq/52.webp?2
-https://thisismagma.com/assets/home/lore/seq/53.webp?2
-https://thisismagma.com/assets/home/lore/seq/54.webp?2
-https://thisismagma.com/assets/home/lore/seq/55.webp?2
-https://thisismagma.com/assets/home/lore/seq/56.webp?2
-https://thisismagma.com/assets/home/lore/seq/57.webp?2
-https://thisismagma.com/assets/home/lore/seq/58.webp?2
-https://thisismagma.com/assets/home/lore/seq/59.webp?2
-https://thisismagma.com/assets/home/lore/seq/60.webp?2
-https://thisismagma.com/assets/home/lore/seq/61.webp?2
-https://thisismagma.com/assets/home/lore/seq/62.webp?2
-https://thisismagma.com/assets/home/lore/seq/63.webp?2
-https://thisismagma.com/assets/home/lore/seq/64.webp?2
-https://thisismagma.com/assets/home/lore/seq/65.webp?2
-https://thisismagma.com/assets/home/lore/seq/66.webp?2
-https://thisismagma.com/assets/home/lore/seq/67.webp?2
-https://thisismagma.com/assets/home/lore/seq/68.webp?2
-https://thisismagma.com/assets/home/lore/seq/69.webp?2
-https://thisismagma.com/assets/home/lore/seq/70.webp?2
-https://thisismagma.com/assets/home/lore/seq/71.webp?2
-https://thisismagma.com/assets/home/lore/seq/72.webp?2
-https://thisismagma.com/assets/home/lore/seq/73.webp?2
-https://thisismagma.com/assets/home/lore/seq/74.webp?2
-https://thisismagma.com/assets/home/lore/seq/75.webp?2
-https://thisismagma.com/assets/home/lore/seq/76.webp?2
-https://thisismagma.com/assets/home/lore/seq/77.webp?2
-https://thisismagma.com/assets/home/lore/seq/78.webp?2
-https://thisismagma.com/assets/home/lore/seq/79.webp?2
-https://thisismagma.com/assets/home/lore/seq/80.webp?2
-https://thisismagma.com/assets/home/lore/seq/81.webp?2
-https://thisismagma.com/assets/home/lore/seq/82.webp?2
-https://thisismagma.com/assets/home/lore/seq/83.webp?2
-https://thisismagma.com/assets/home/lore/seq/84.webp?2
-https://thisismagma.com/assets/home/lore/seq/85.webp?2
-https://thisismagma.com/assets/home/lore/seq/86.webp?2
-https://thisismagma.com/assets/home/lore/seq/87.webp?2
-https://thisismagma.com/assets/home/lore/seq/88.webp?2
-https://thisismagma.com/assets/home/lore/seq/89.webp?2
-https://thisismagma.com/assets/home/lore/seq/90.webp?2
-https://thisismagma.com/assets/home/lore/seq/91.webp?2
-https://thisismagma.com/assets/home/lore/seq/92.webp?2
-https://thisismagma.com/assets/home/lore/seq/93.webp?2
-https://thisismagma.com/assets/home/lore/seq/94.webp?2
-https://thisismagma.com/assets/home/lore/seq/95.webp?2
-https://thisismagma.com/assets/home/lore/seq/96.webp?2
-https://thisismagma.com/assets/home/lore/seq/97.webp?2
-https://thisismagma.com/assets/home/lore/seq/98.webp?2
-https://thisismagma.com/assets/home/lore/seq/99.webp?2
-https://thisismagma.com/assets/home/lore/seq/100.webp?2
-https://thisismagma.com/assets/home/lore/seq/101.webp?2
-https://thisismagma.com/assets/home/lore/seq/102.webp?2
-https://thisismagma.com/assets/home/lore/seq/103.webp?2
-https://thisismagma.com/assets/home/lore/seq/104.webp?2
-https://thisismagma.com/assets/home/lore/seq/105.webp?2
-https://thisismagma.com/assets/home/lore/seq/106.webp?2
-https://thisismagma.com/assets/home/lore/seq/107.webp?2
-https://thisismagma.com/assets/home/lore/seq/108.webp?2
-https://thisismagma.com/assets/home/lore/seq/109.webp?2
-https://thisismagma.com/assets/home/lore/seq/110.webp?2
-https://thisismagma.com/assets/home/lore/seq/111.webp?2
-https://thisismagma.com/assets/home/lore/seq/112.webp?2
-https://thisismagma.com/assets/home/lore/seq/113.webp?2
-https://thisismagma.com/assets/home/lore/seq/114.webp?2
-https://thisismagma.com/assets/home/lore/seq/115.webp?2
-https://thisismagma.com/assets/home/lore/seq/116.webp?2
-https://thisismagma.com/assets/home/lore/seq/117.webp?2
-https://thisismagma.com/assets/home/lore/seq/118.webp?2
-https://thisismagma.com/assets/home/lore/seq/119.webp?2
-https://thisismagma.com/assets/home/lore/seq/120.webp?2
-https://thisismagma.com/assets/home/lore/seq/121.webp?2
-https://thisismagma.com/assets/home/lore/seq/122.webp?2
-https://thisismagma.com/assets/home/lore/seq/123.webp?2
-https://thisismagma.com/assets/home/lore/seq/124.webp?2
-https://thisismagma.com/assets/home/lore/seq/125.webp?2
-https://thisismagma.com/assets/home/lore/seq/126.webp?2
-https://thisismagma.com/assets/home/lore/seq/127.webp?2
-https://thisismagma.com/assets/home/lore/seq/128.webp?2
-https://thisismagma.com/assets/home/lore/seq/129.webp?2
-https://thisismagma.com/assets/home/lore/seq/130.webp?2
-https://thisismagma.com/assets/home/lore/seq/131.webp?2
-https://thisismagma.com/assets/home/lore/seq/132.webp?2
-https://thisismagma.com/assets/home/lore/seq/133.webp?2
-https://thisismagma.com/assets/home/lore/seq/134.webp?2
-https://thisismagma.com/assets/home/lore/seq/135.webp?2
-https://thisismagma.com/assets/home/lore/seq/136.webp?2
-
-`;
+./Assets/Paper/1.webp
+./Assets/Paper/2.webp
+./Assets/Paper/3.webp
+./Assets/Paper/4.webp
+./Assets/Paper/5.webp
+./Assets/Paper/6.webp
+./Assets/Paper/7.webp
+./Assets/Paper/8.webp
+./Assets/Paper/9.webp
+./Assets/Paper/10.webp
+./Assets/Paper/11.webp
+./Assets/Paper/12.webp
+./Assets/Paper/13.webp
+./Assets/Paper/14.webp
+./Assets/Paper/15.webp
+./Assets/Paper/16.webp
+./Assets/Paper/17.webp
+./Assets/Paper/18.webp
+./Assets/Paper/19.webp
+./Assets/Paper/20.webp
+./Assets/Paper/21.webp
+./Assets/Paper/22.webp
+./Assets/Paper/23.webp
+./Assets/Paper/24.webp
+./Assets/Paper/25.webp
+./Assets/Paper/26.webp
+./Assets/Paper/27.webp
+./Assets/Paper/28.webp
+./Assets/Paper/29.webp
+./Assets/Paper/30.webp
+./Assets/Paper/31.webp
+./Assets/Paper/32.webp
+./Assets/Paper/33.webp
+./Assets/Paper/34.webp
+./Assets/Paper/35.webp
+./Assets/Paper/36.webp
+./Assets/Paper/37.webp
+./Assets/Paper/38.webp
+./Assets/Paper/39.webp
+./Assets/Paper/40.webp
+./Assets/Paper/41.webp
+./Assets/Paper/42.webp
+./Assets/Paper/43.webp
+./Assets/Paper/44.webp
+./Assets/Paper/45.webp
+./Assets/Paper/46.webp
+./Assets/Paper/47.webp
+./Assets/Paper/48.webp
+./Assets/Paper/49.webp
+./Assets/Paper/50.webp
+./Assets/Paper/51.webp
+./Assets/Paper/52.webp
+./Assets/Paper/53.webp
+./Assets/Paper/54.webp
+./Assets/Paper/55.webp
+./Assets/Paper/56.webp
+./Assets/Paper/57.webp
+./Assets/Paper/58.webp
+./Assets/Paper/59.webp
+./Assets/Paper/60.webp
+./Assets/Paper/61.webp
+./Assets/Paper/62.webp
+./Assets/Paper/63.webp
+./Assets/Paper/64.webp
+./Assets/Paper/65.webp
+./Assets/Paper/66.webp
+./Assets/Paper/67.webp
+./Assets/Paper/68.webp
+./Assets/Paper/69.webp
+./Assets/Paper/70.webp
+./Assets/Paper/71.webp
+./Assets/Paper/72.webp
+./Assets/Paper/73.webp
+./Assets/Paper/74.webp
+./Assets/Paper/75.webp
+./Assets/Paper/76.webp
+./Assets/Paper/77.webp
+./Assets/Paper/78.webp
+./Assets/Paper/79.webp
+./Assets/Paper/80.webp
+./Assets/Paper/81.webp
+./Assets/Paper/82.webp
+./Assets/Paper/83.webp
+./Assets/Paper/84.webp
+./Assets/Paper/85.webp
+./Assets/Paper/86.webp
+./Assets/Paper/87.webp
+./Assets/Paper/88.webp
+./Assets/Paper/89.webp
+./Assets/Paper/90.webp
+./Assets/Paper/91.webp
+./Assets/Paper/92.webp
+./Assets/Paper/93.webp
+./Assets/Paper/94.webp
+./Assets/Paper/95.webp
+./Assets/Paper/96.webp
+./Assets/Paper/97.webp
+./Assets/Paper/98.webp
+./Assets/Paper/99.webp
+./Assets/Paper/100.webp
+./Assets/Paper/101.webp
+./Assets/Paper/102.webp
+./Assets/Paper/103.webp
+./Assets/Paper/104.webp
+./Assets/Paper/105.webp
+./Assets/Paper/106.webp
+./Assets/Paper/107.webp
+./Assets/Paper/108.webp
+./Assets/Paper/109.webp
+./Assets/Paper/110.webp
+./Assets/Paper/111.webp
+./Assets/Paper/112.webp
+./Assets/Paper/113.webp
+./Assets/Paper/114.webp
+./Assets/Paper/115.webp
+./Assets/Paper/116.webp
+./Assets/Paper/117.webp
+./Assets/Paper/118.webp
+./Assets/Paper/119.webp
+./Assets/Paper/120.webp
+./Assets/Paper/121.webp
+./Assets/Paper/122.webp
+./Assets/Paper/123.webp
+./Assets/Paper/124.webp
+./Assets/Paper/125.webp
+./Assets/Paper/126.webp
+./Assets/Paper/127.webp
+./Assets/Paper/128.webp
+./Assets/Paper/129.webp
+./Assets/Paper/130.webp
+./Assets/Paper/131.webp
+./Assets/Paper/132.webp
+./Assets/Paper/133.webp
+./Assets/Paper/134.webp
+./Assets/Paper/135.webp
+./Assets/Paper/136.webp
+`
     return data.split("\n")[index];
   }
 
@@ -878,82 +876,89 @@ function canvas10() {
   });
 
   function files(index) {
-    var data = 
-`https://thisismagma.com/assets/home/roadmap/seq/1.jpg
-https://thisismagma.com/assets/home/roadmap/seq/2.jpg
-https://thisismagma.com/assets/home/roadmap/seq/3.jpg
-https://thisismagma.com/assets/home/roadmap/seq/4.jpg
-https://thisismagma.com/assets/home/roadmap/seq/5.jpg
-https://thisismagma.com/assets/home/roadmap/seq/6.jpg
-https://thisismagma.com/assets/home/roadmap/seq/7.jpg
-https://thisismagma.com/assets/home/roadmap/seq/8.jpg
-https://thisismagma.com/assets/home/roadmap/seq/9.jpg
-https://thisismagma.com/assets/home/roadmap/seq/10.jpg
-https://thisismagma.com/assets/home/roadmap/seq/11.jpg
-https://thisismagma.com/assets/home/roadmap/seq/12.jpg
-https://thisismagma.com/assets/home/roadmap/seq/13.jpg
-https://thisismagma.com/assets/home/roadmap/seq/14.jpg
-https://thisismagma.com/assets/home/roadmap/seq/15.jpg
-https://thisismagma.com/assets/home/roadmap/seq/16.jpg
-https://thisismagma.com/assets/home/roadmap/seq/17.jpg
-https://thisismagma.com/assets/home/roadmap/seq/18.jpg
-https://thisismagma.com/assets/home/roadmap/seq/19.jpg
-https://thisismagma.com/assets/home/roadmap/seq/20.jpg
-https://thisismagma.com/assets/home/roadmap/seq/21.jpg
-https://thisismagma.com/assets/home/roadmap/seq/22.jpg
-https://thisismagma.com/assets/home/roadmap/seq/23.jpg
-https://thisismagma.com/assets/home/roadmap/seq/24.jpg
-https://thisismagma.com/assets/home/roadmap/seq/25.jpg
-https://thisismagma.com/assets/home/roadmap/seq/26.jpg
-https://thisismagma.com/assets/home/roadmap/seq/27.jpg
-https://thisismagma.com/assets/home/roadmap/seq/28.jpg
-https://thisismagma.com/assets/home/roadmap/seq/29.jpg
-https://thisismagma.com/assets/home/roadmap/seq/30.jpg
-https://thisismagma.com/assets/home/roadmap/seq/31.jpg
-https://thisismagma.com/assets/home/roadmap/seq/32.jpg
-https://thisismagma.com/assets/home/roadmap/seq/33.jpg
-https://thisismagma.com/assets/home/roadmap/seq/34.jpg
-https://thisismagma.com/assets/home/roadmap/seq/35.jpg
-https://thisismagma.com/assets/home/roadmap/seq/36.jpg
-https://thisismagma.com/assets/home/roadmap/seq/37.jpg
-https://thisismagma.com/assets/home/roadmap/seq/38.jpg
-https://thisismagma.com/assets/home/roadmap/seq/39.jpg
-https://thisismagma.com/assets/home/roadmap/seq/40.jpg
-https://thisismagma.com/assets/home/roadmap/seq/41.jpg
-https://thisismagma.com/assets/home/roadmap/seq/42.jpg
-https://thisismagma.com/assets/home/roadmap/seq/43.jpg
-https://thisismagma.com/assets/home/roadmap/seq/44.jpg
-https://thisismagma.com/assets/home/roadmap/seq/45.jpg
-https://thisismagma.com/assets/home/roadmap/seq/46.jpg
-https://thisismagma.com/assets/home/roadmap/seq/47.jpg
-https://thisismagma.com/assets/home/roadmap/seq/48.jpg
-https://thisismagma.com/assets/home/roadmap/seq/49.jpg
-https://thisismagma.com/assets/home/roadmap/seq/50.jpg
-https://thisismagma.com/assets/home/roadmap/seq/51.jpg
-https://thisismagma.com/assets/home/roadmap/seq/52.jpg
-https://thisismagma.com/assets/home/roadmap/seq/53.jpg
-https://thisismagma.com/assets/home/roadmap/seq/54.jpg
-https://thisismagma.com/assets/home/roadmap/seq/55.jpg
-https://thisismagma.com/assets/home/roadmap/seq/56.jpg
-https://thisismagma.com/assets/home/roadmap/seq/57.jpg
-https://thisismagma.com/assets/home/roadmap/seq/58.jpg
-https://thisismagma.com/assets/home/roadmap/seq/59.jpg
-https://thisismagma.com/assets/home/roadmap/seq/60.jpg
-https://thisismagma.com/assets/home/roadmap/seq/61.jpg
-https://thisismagma.com/assets/home/roadmap/seq/62.jpg
-https://thisismagma.com/assets/home/roadmap/seq/63.jpg
-https://thisismagma.com/assets/home/roadmap/seq/64.jpg
-https://thisismagma.com/assets/home/roadmap/seq/65.jpg
-https://thisismagma.com/assets/home/roadmap/seq/66.jpg
-https://thisismagma.com/assets/home/roadmap/seq/67.jpg
-https://thisismagma.com/assets/home/roadmap/seq/68.jpg
-https://thisismagma.com/assets/home/roadmap/seq/69.jpg
-https://thisismagma.com/assets/home/roadmap/seq/70.jpg
-https://thisismagma.com/assets/home/roadmap/seq/71.jpg
-https://thisismagma.com/assets/home/roadmap/seq/72.jpg
-https://thisismagma.com/assets/home/roadmap/seq/73.jpg
-https://thisismagma.com/assets/home/roadmap/seq/74.jpg
-https://thisismagma.com/assets/home/roadmap/seq/75.jpg`;
+    // var data = 
+    // `https://thisismagma.com/assets/home/roadmap/seq/1.jpg
+    // https://thisismagma.com/assets/home/roadmap/seq/2.jpg
+    // https://thisismagma.com/assets/home/roadmap/seq/3.jpg
+// `; //for referce only
+
+    var data = `
+./Assets/rotating symbols/1.jpg
+./Assets/rotating symbols/2.jpg
+./Assets/rotating symbols/3.jpg
+./Assets/rotating symbols/4.jpg
+./Assets/rotating symbols/5.jpg
+./Assets/rotating symbols/6.jpg
+./Assets/rotating symbols/7.jpg
+./Assets/rotating symbols/8.jpg
+./Assets/rotating symbols/9.jpg
+./Assets/rotating symbols/10.jpg
+./Assets/rotating symbols/11.jpg
+./Assets/rotating symbols/12.jpg
+./Assets/rotating symbols/13.jpg
+./Assets/rotating symbols/14.jpg
+./Assets/rotating symbols/15.jpg
+./Assets/rotating symbols/16.jpg
+./Assets/rotating symbols/17.jpg
+./Assets/rotating symbols/18.jpg
+./Assets/rotating symbols/19.jpg
+./Assets/rotating symbols/20.jpg
+./Assets/rotating symbols/21.jpg
+./Assets/rotating symbols/22.jpg
+./Assets/rotating symbols/23.jpg
+./Assets/rotating symbols/24.jpg
+./Assets/rotating symbols/25.jpg
+./Assets/rotating symbols/26.jpg
+./Assets/rotating symbols/27.jpg
+./Assets/rotating symbols/28.jpg
+./Assets/rotating symbols/29.jpg
+./Assets/rotating symbols/30.jpg
+./Assets/rotating symbols/31.jpg
+./Assets/rotating symbols/32.jpg
+./Assets/rotating symbols/33.jpg
+./Assets/rotating symbols/34.jpg
+./Assets/rotating symbols/35.jpg
+./Assets/rotating symbols/36.jpg
+./Assets/rotating symbols/37.jpg
+./Assets/rotating symbols/38.jpg
+./Assets/rotating symbols/39.jpg
+./Assets/rotating symbols/40.jpg
+./Assets/rotating symbols/41.jpg
+./Assets/rotating symbols/42.jpg
+./Assets/rotating symbols/43.jpg
+./Assets/rotating symbols/44.jpg
+./Assets/rotating symbols/45.jpg
+./Assets/rotating symbols/46.jpg
+./Assets/rotating symbols/47.jpg
+./Assets/rotating symbols/48.jpg
+./Assets/rotating symbols/49.jpg
+./Assets/rotating symbols/50.jpg
+./Assets/rotating symbols/51.jpg
+./Assets/rotating symbols/52.jpg
+./Assets/rotating symbols/53.jpg
+./Assets/rotating symbols/54.jpg
+./Assets/rotating symbols/55.jpg
+./Assets/rotating symbols/56.jpg
+./Assets/rotating symbols/57.jpg
+./Assets/rotating symbols/58.jpg
+./Assets/rotating symbols/59.jpg
+./Assets/rotating symbols/60.jpg
+./Assets/rotating symbols/61.jpg
+./Assets/rotating symbols/62.jpg
+./Assets/rotating symbols/63.jpg
+./Assets/rotating symbols/64.jpg
+./Assets/rotating symbols/65.jpg
+./Assets/rotating symbols/66.jpg
+./Assets/rotating symbols/67.jpg
+./Assets/rotating symbols/68.jpg
+./Assets/rotating symbols/69.jpg
+./Assets/rotating symbols/70.jpg
+./Assets/rotating symbols/71.jpg
+./Assets/rotating symbols/72.jpg
+./Assets/rotating symbols/73.jpg
+./Assets/rotating symbols/74.jpg
+./Assets/rotating symbols/75.jpg
+`;
     return data.split("\n")[index];
   }
 
@@ -1057,7 +1062,6 @@ canvas10()
 //             const walk = (x - startX) * 2; // Multiply for faster scroll
 //             scrollContainer.scrollLeft = scrollLeft - walk;
 //         });
-
 
 
 
