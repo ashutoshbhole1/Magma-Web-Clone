@@ -103,147 +103,147 @@ function canvas() {
   });
 
   function files(index) {
-    //   var data = `
-    // ./Assets/Frames img/frames00007.png
-    // ./Assets/Frames img/frames00010.png
-    // ./Assets/Frames img/frames00013.png
-    // ./Assets/Frames img/frames00016.png
-    // ./Assets/Frames img/frames00019.png
-    // ./Assets/Frames img/frames00022.png
-    // ./Assets/Frames img/frames00025.png
-    // ./Assets/Frames img/frames00028.png
-    // ./Assets/Frames img/frames00031.png
-    // ./Assets/Frames img/frames00034.png
-    // ./Assets/Frames img/frames00037.png
-    // ./Assets/Frames img/frames00040.png
-    // ./Assets/Frames img/frames00043.png
-    // ./Assets/Frames img/frames00046.png
-    // ./Assets/Frames img/frames00049.png
-    // /Assets/Frames img/frames00052.png
-    // /Assets/Frames img/frames00055.png
-    // /Assets/Frames img/frames00058.png
-    // ./Assets/Frames img/frames00061.png
-    // ./Assets/Frames img/frames00064.png
-    // ./Assets/Frames img/frames00067.png
-    // ./Assets/Frames img/frames00070.png
-    // ./Assets/Frames img/frames00073.png
-    // ./Assets/Frames img/frames00076.png
-    // ./Assets/Frames img/frames00079.png
-    // ./Assets/Frames img/frames00082.png
-    // ./Assets/Frames img/frames00085.png
-    // ./Assets/Frames img/frames00088.png
-    // ./Assets/Frames img/frames00091.png
-    // ./Assets/Frames img/frames00094.png
-    // ./Assets/Frames img/frames00097.png
-    // ./Assets/Frames img/frames00100.png
-    // ./Assets/Frames img/frames00103.png
-    // ./Assets/Frames img/frames00106.png
-    // ./Assets/Frames img/frames00109.png
-    // ./Assets/Frames img/frames00112.png
-    // ./Assets/Frames img/frames00115.png
-    // ./Assets/Frames img/frames00118.png
-    // ./Assets/Frames img/frames00121.png
-    // ./Assets/Frames img/frames00124.png
-    // ./Assets/Frames img/frames00127.png
-    // ./Assets/Frames img/frames00130.png
-    // ./Assets/Frames img/frames00133.png
-    // ./Assets/Frames img/frames00136.png
-    // ./Assets/Frames img/frames00139.png
-    // ./Assets/Frames img/frames00142.png
-    // ./Assets/Frames img/frames00145.png
-    // ./Assets/Frames img/frames00148.png
-    // ./Assets/Frames img/frames00151.png
-    // ./Assets/Frames img/frames00154.png
-    // ./Assets/Frames img/frames00157.png
-    // ./Assets/Frames img/frames00160.png
-    // ./Assets/Frames img/frames00163.png
-    // ./Assets/Frames img/frames00166.png
-    // ./Assets/Frames img/frames00169.png
-    // ./Assets/Frames img/frames00172.png
-    // ./Assets/Frames img/frames00175.png
-    // ./Assets/Frames img/frames00178.png
-    // ./Assets/Frames img/frames00181.png
-    // ./Assets/Frames img/frames00184.png
-    // ./Assets/Frames img/frames00187.png
-    // ./Assets/Frames img/frames00190.png
-    // ./Assets/Frames img/frames00193.png
-    // ./Assets/Frames img/frames00196.png
-    // ./Assets/Frames img/frames00199.png
-    // ./Assets/Frames img/frames00202.png
-    //  `;
+      var data = `
+    ./Assets/Frames img/frames00007.png
+    ./Assets/Frames img/frames00010.png
+    ./Assets/Frames img/frames00013.png
+    ./Assets/Frames img/frames00016.png
+    ./Assets/Frames img/frames00019.png
+    ./Assets/Frames img/frames00022.png
+    ./Assets/Frames img/frames00025.png
+    ./Assets/Frames img/frames00028.png
+    ./Assets/Frames img/frames00031.png
+    ./Assets/Frames img/frames00034.png
+    ./Assets/Frames img/frames00037.png
+    ./Assets/Frames img/frames00040.png
+    ./Assets/Frames img/frames00043.png
+    ./Assets/Frames img/frames00046.png
+    ./Assets/Frames img/frames00049.png
+    /Assets/Frames img/frames00052.png
+    /Assets/Frames img/frames00055.png
+    /Assets/Frames img/frames00058.png
+    ./Assets/Frames img/frames00061.png
+    ./Assets/Frames img/frames00064.png
+    ./Assets/Frames img/frames00067.png
+    ./Assets/Frames img/frames00070.png
+    ./Assets/Frames img/frames00073.png
+    ./Assets/Frames img/frames00076.png
+    ./Assets/Frames img/frames00079.png
+    ./Assets/Frames img/frames00082.png
+    ./Assets/Frames img/frames00085.png
+    ./Assets/Frames img/frames00088.png
+    ./Assets/Frames img/frames00091.png
+    ./Assets/Frames img/frames00094.png
+    ./Assets/Frames img/frames00097.png
+    ./Assets/Frames img/frames00100.png
+    ./Assets/Frames img/frames00103.png
+    ./Assets/Frames img/frames00106.png
+    ./Assets/Frames img/frames00109.png
+    ./Assets/Frames img/frames00112.png
+    ./Assets/Frames img/frames00115.png
+    ./Assets/Frames img/frames00118.png
+    ./Assets/Frames img/frames00121.png
+    ./Assets/Frames img/frames00124.png
+    ./Assets/Frames img/frames00127.png
+    ./Assets/Frames img/frames00130.png
+    ./Assets/Frames img/frames00133.png
+    ./Assets/Frames img/frames00136.png
+    ./Assets/Frames img/frames00139.png
+    ./Assets/Frames img/frames00142.png
+    ./Assets/Frames img/frames00145.png
+    ./Assets/Frames img/frames00148.png
+    ./Assets/Frames img/frames00151.png
+    ./Assets/Frames img/frames00154.png
+    ./Assets/Frames img/frames00157.png
+    ./Assets/Frames img/frames00160.png
+    ./Assets/Frames img/frames00163.png
+    ./Assets/Frames img/frames00166.png
+    ./Assets/Frames img/frames00169.png
+    ./Assets/Frames img/frames00172.png
+    ./Assets/Frames img/frames00175.png
+    ./Assets/Frames img/frames00178.png
+    ./Assets/Frames img/frames00181.png
+    ./Assets/Frames img/frames00184.png
+    ./Assets/Frames img/frames00187.png
+    ./Assets/Frames img/frames00190.png
+    ./Assets/Frames img/frames00193.png
+    ./Assets/Frames img/frames00196.png
+    ./Assets/Frames img/frames00199.png
+    ./Assets/Frames img/frames00202.png
+     `;
 
-    var data = `
-./frames00007.png
-./frames00010.png
-./frames00013.png
-./frames00016.png
-./frames00019.png
-./frames00022.png
-./frames00025.png
-./frames00028.png
-./frames00031.png
-./frames00034.png
-./frames00037.png
-./frames00040.png
-./frames00043.png
-./frames00046.png
-./frames00049.png
-./frames00052.png
-./frames00055.png
-./frames00058.png
-./frames00061.png
-./frames00064.png
-./frames00067.png
-./frames00070.png
-./frames00073.png
-./frames00076.png
-./frames00079.png
-./frames00082.png
-./frames00085.png
-./frames00088.png
-./frames00091.png
-./frames00094.png
-./frames00097.png
-./frames00100.png
-./frames00103.png
-./frames00106.png
-./frames00109.png
-./frames00112.png
-./frames00115.png
-./frames00118.png
-./frames00121.png
-./frames00124.png
-./frames00127.png
-./frames00130.png
-./frames00133.png
-./frames00136.png
-./frames00139.png
-./frames00142.png
-./frames00145.png
-./frames00148.png
-./frames00151.png
-./frames00154.png
-./frames00157.png
-./frames00160.png
-./frames00163.png
-./frames00166.png
-./frames00169.png
-./frames00172.png
-./frames00175.png
-./frames00178.png
-./frames00181.png
-./frames00184.png
-./frames00187.png
-./frames00190.png
-./frames00193.png
-./frames00196.png
-./frames00199.png
-./frames00202.png
-`;
+//     var data = `
+// ./frames00007.png
+// ./frames00010.png
+// ./frames00013.png
+// ./frames00016.png
+// ./frames00019.png
+// ./frames00022.png
+// ./frames00025.png
+// ./frames00028.png
+// ./frames00031.png
+// ./frames00034.png
+// ./frames00037.png
+// ./frames00040.png
+// ./frames00043.png
+// ./frames00046.png
+// ./frames00049.png
+// ./frames00052.png
+// ./frames00055.png
+// ./frames00058.png
+// ./frames00061.png
+// ./frames00064.png
+// ./frames00067.png
+// ./frames00070.png
+// ./frames00073.png
+// ./frames00076.png
+// ./frames00079.png
+// ./frames00082.png
+// ./frames00085.png
+// ./frames00088.png
+// ./frames00091.png
+// ./frames00094.png
+// ./frames00097.png
+// ./frames00100.png
+// ./frames00103.png
+// ./frames00106.png
+// ./frames00109.png
+// ./frames00112.png
+// ./frames00115.png
+// ./frames00118.png
+// ./frames00121.png
+// ./frames00124.png
+// ./frames00127.png
+// ./frames00130.png
+// ./frames00133.png
+// ./frames00136.png
+// ./frames00139.png
+// ./frames00142.png
+// ./frames00145.png
+// ./frames00148.png
+// ./frames00151.png
+// ./frames00154.png
+// ./frames00157.png
+// ./frames00160.png
+// ./frames00163.png
+// ./frames00166.png
+// ./frames00169.png
+// ./frames00172.png
+// ./frames00175.png
+// ./frames00178.png
+// ./frames00181.png
+// ./frames00184.png
+// ./frames00187.png
+// ./frames00190.png
+// ./frames00193.png
+// ./frames00196.png
+// ./frames00199.png
+// ./frames00202.png
+// `;
     return data.split("\n")[index];
   }
 
-  const frameCount = 67;
+  const frameCount = 66;
 
   const images = [];
   const imageSeq = {
@@ -394,78 +394,65 @@ function canvas5() {
   function files(index) {
 
     var data = `
-  ./bridges00004.png
-  ./bridges00007.png
-  ./bridges00010.png
-  ./bridges00013.png
-  ./bridges00016.png
-  ./bridges00019.png
-  ./bridges00022.png
-  ./bridges00025.png
-  ./bridges00028.png
-  ./bridges00031.png
-  ./bridges00034.png
-  ./bridges00037.png
-  ./bridges00040.png
-  ./bridges00043.png
-  ./bridges00046.png
-  ./bridges00049.png
-  ./bridges00052.png
-  ./bridges00055.png
-  ./bridges00058.png
-  ./bridges00061.png
-  ./bridges00064.png
-  ./bridges00067.png
-  ./bridges00070.png
-  ./bridges00073.png
-  ./bridges00076.png
-  ./bridges00079.png
-  ./bridges00082.png
-  ./bridges00085.png
-  ./bridges00088.png
-  ./bridges00091.png
-  ./bridges00094.png
-  ./bridges00097.png
-  ./bridges00100.png
-  ./bridges00103.png
-  ./bridges00106.png
-  ./bridges00109.png
-  ./bridges00112.png
-  ./bridges00115.png
-  ./bridges00118.png
-  ./bridges00121.png
-  ./bridges00124.png
-  ./bridges00127.png
-  ./bridges00130.png
-  ./bridges00133.png
-  ./bridges00136.png
-  ./bridges00139.png
-  ./bridges00142.png
-  ./bridges00145.png
-  ./bridges00148.png
-  ./bridges00151.png
-  ./bridges00154.png
-  ./bridges00157.png
-  ./bridges00160.png
-  ./bridges00163.png
-  ./bridges00166.png
-  ./bridges00169.png
-  ./bridges00172.png
-  ./bridges00175.png
-  ./bridges00178.png
-  ./bridges00181.png
-  ./bridges00184.png
-  ./bridges00187.png
-  ./bridges00190.png
-  ./bridges00193.png
-  ./bridges00196.png
-  ./bridges00199.png
-  ./bridges00202.png
+  ./Assets/Bridge img/bridges00004.png
+  ./Assets/Bridge img/bridges00007.png
+  ./Assets/Bridge img/bridges00010.png
+  ./Assets/Bridge img/bridges00013.png
+  ./Assets/Bridge img/bridges00016.png
+  ./Assets/Bridge img/bridges00019.png
+  ./Assets/Bridge img/bridges00022.png
+  ./Assets/Bridge img/bridges00025.png
+  ./Assets/Bridge img/bridges00028.png
+  ./Assets/Bridge img/bridges00031.png
+  ./Assets/Bridge img/bridges00034.png
+  ./Assets/Bridge img/bridges00037.png
+  ./Assets/Bridge img/bridges00040.png
+  ./Assets/Bridge img/bridges00043.png
+  ./Assets/Bridge img/bridges00046.png
+  ./Assets/Bridge img/bridges00049.png
+  ./Assets/Bridge img/bridges00052.png
+  ./Assets/Bridge img/bridges00055.png
+  ./Assets/Bridge img/bridges00058.png
+  ./Assets/Bridge img/bridges00061.png
+  ./Assets/Bridge img/bridges00064.png
+  ./Assets/Bridge img/bridges00067.png
+  ./Assets/Bridge img/bridges00070.png
+  ./Assets/Bridge img/bridges00073.png
+  ./Assets/Bridge img/bridges00076.png
+  ./Assets/Bridge img/bridges00079.png
+  ./Assets/Bridge img/bridges00082.png
+  ./Assets/Bridge img/bridges00085.png
+  ./Assets/Bridge img/bridges00088.png
+  ./Assets/Bridge img/bridges00091.png
+  ./Assets/Bridge img/bridges00094.png
+  ./Assets/Bridge img/bridges00097.png
+  ./Assets/Bridge img/bridges00100.png
+  ./Assets/Bridge img/bridges00103.png
+  ./Assets/Bridge img/bridges00106.png
+  ./Assets/Bridge img/bridges00109.png
+  ./Assets/Bridge img/bridges00112.png
+  ./Assets/Bridge img/bridges00115.png
+  ./Assets/Bridge img/bridges00118.png
+  ./Assets/Bridge img/bridges00121.png
+  ./Assets/Bridge img/bridges00124.png
+  ./Assets/Bridge img/bridges00127.png
+  ./Assets/Bridge img/bridges00130.png
+  ./Assets/Bridge img/bridges00133.png
+  ./Assets/Bridge img/bridges00136.png
+  ./Assets/Bridge img/bridges00139.png
+  ./Assets/Bridge img/bridges00142.png
+  ./Assets/Bridge img/bridges00145.png
+  ./Assets/Bridge img/bridges00148.png
+  ./Assets/Bridge img/bridges00151.png
+  ./Assets/Bridge img/bridges00154.png
+  ./Assets/Bridge img/bridges00157.png
+  ./Assets/Bridge img/bridges00160.png
+  ./Assets/Bridge img/bridges00163.png
   `;
     return data.split("\n")[index];
   }
 
-  const frameCount = 67;
+  const frameCount = 54;
 
   const images = [];
   const imageSeq = {
