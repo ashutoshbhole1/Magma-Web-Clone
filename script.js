@@ -59,25 +59,25 @@ gsap.to(".page2>h1>span", {
 // canvas loading speed js
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const canvasSection = document.querySelector(".page3 canvas");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const canvasSection = document.querySelector(".page3 canvas");
 
-  const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              loadCanvas();  // Function to initialize canvas
-              observer.disconnect(); // Stop observing after loading
-          }
-      });
-  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+//   const observer = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//           if (entry.isIntersecting) {
+//               loadCanvas();  // Function to initialize canvas
+//               observer.disconnect(); // Stop observing after loading
+//           }
+//       });
+//   }, { rootMargin: "200px" }); // Start loading when user is 200px away
 
-  observer.observe(canvasSection);
-});
+//   observer.observe(canvasSection);
+// });
 
-function loadCanvas() {
-  console.log("Canvas Loading...");
-  // Initialize Three.js or other 3D rendering logic here
-}
+// function loadCanvas() {
+//   console.log("Canvas Loading...");
+//   // Initialize Three.js or other 3D rendering logic here
+// }
 
 
 
@@ -351,25 +351,25 @@ gsap.to(".page4>h1>span", {
 // canvas loading speed js
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const canvasSection = document.querySelector(".page5 canvas");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const canvasSection = document.querySelector(".page5 canvas");
 
-  const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              loadCanvas();  // Function to initialize canvas
-              observer.disconnect(); // Stop observing after loading
-          }
-      });
-  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+//   const observer = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//           if (entry.isIntersecting) {
+//               loadCanvas();  // Function to initialize canvas
+//               observer.disconnect(); // Stop observing after loading
+//           }
+//       });
+//   }, { rootMargin: "200px" }); // Start loading when user is 200px away
 
-  observer.observe(canvasSection);
-});
+//   observer.observe(canvasSection);
+// });
 
-function loadCanvas() {
-  console.log("Canvas Loading...");
-  // Initialize Three.js or other 3D rendering logic here
-}
+// function loadCanvas() {
+//   console.log("Canvas Loading...");
+//   // Initialize Three.js or other 3D rendering logic here
+// }
 
 
 
@@ -573,25 +573,25 @@ gsap.to(".page6>h1>span", {
 // canvas loading speed js
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const canvasSection = document.querySelector(".page7 canvas");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const canvasSection = document.querySelector(".page7 canvas");
 
-  const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              loadCanvas();  // Function to initialize canvas
-              observer.disconnect(); // Stop observing after loading
-          }
-      });
-  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+//   const observer = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//           if (entry.isIntersecting) {
+//               loadCanvas();  // Function to initialize canvas
+//               observer.disconnect(); // Stop observing after loading
+//           }
+//       });
+//   }, { rootMargin: "200px" }); // Start loading when user is 200px away
 
-  observer.observe(canvasSection);
-});
+//   observer.observe(canvasSection);
+// });
 
-function loadCanvas() {
-  console.log("Canvas Loading...");
-  // Initialize Three.js or other 3D rendering logic here
-}
+// function loadCanvas() {
+//   console.log("Canvas Loading...");
+//   // Initialize Three.js or other 3D rendering logic here
+// }
 
 
 
@@ -853,25 +853,25 @@ gsap.to(".page7 .p7_cir_inner", {
 // canvas loading speed js
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const canvasSection = document.querySelector(".page10 .rgt canvas");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const canvasSection = document.querySelector(".page10 .rgt canvas");
 
-  const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              loadCanvas();  // Function to initialize canvas
-              observer.disconnect(); // Stop observing after loading
-          }
-      });
-  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+//   const observer = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//           if (entry.isIntersecting) {
+//               loadCanvas();  // Function to initialize canvas
+//               observer.disconnect(); // Stop observing after loading
+//           }
+//       });
+//   }, { rootMargin: "200px" }); // Start loading when user is 200px away
 
-  observer.observe(canvasSection);
-});
+//   observer.observe(canvasSection);
+// });
 
-function loadCanvas() {
-  console.log("Canvas Loading...");
-  // Initialize Three.js or other 3D rendering logic here
-}
+// function loadCanvas() {
+//   console.log("Canvas Loading...");
+//   // Initialize Three.js or other 3D rendering logic here
+// }
 
 
 
