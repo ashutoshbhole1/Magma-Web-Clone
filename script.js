@@ -347,6 +347,35 @@ gsap.to(".page4>h1>span", {
 // 
 // 
 
+
+// canvas loading speed js
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const canvasSection = document.querySelector(".page5 canvas");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              loadCanvas();  // Function to initialize canvas
+              observer.disconnect(); // Stop observing after loading
+          }
+      });
+  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+
+  observer.observe(canvasSection);
+});
+
+function loadCanvas() {
+  console.log("Canvas Loading...");
+  // Initialize Three.js or other 3D rendering logic here
+}
+
+
+
+
+
+
 function canvas5() {
 
   const canvas = document.querySelector(".page5 canvas");
@@ -539,6 +568,31 @@ gsap.to(".page6>h1>span", {
 //  Page 7
 // 
 // 
+
+
+// canvas loading speed js
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const canvasSection = document.querySelector(".page7 canvas");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              loadCanvas();  // Function to initialize canvas
+              observer.disconnect(); // Stop observing after loading
+          }
+      });
+  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+
+  observer.observe(canvasSection);
+});
+
+function loadCanvas() {
+  console.log("Canvas Loading...");
+  // Initialize Three.js or other 3D rendering logic here
+}
+
 
 
 function canvas7() {
@@ -790,63 +844,37 @@ gsap.to(".page7 .p7_cir_inner", {
 });
 
 
-//
-// 
-// page 8
-// 
-// 
-
-// gsap.fromTo(".page8 video#cd-player", {
-//   scale: 1.5,
-//   opacity: .5,},{
-//   scrollTrigger: {
-//     trigger: ".page8 video",
-//     markers: true,
-//     // start: "top center",
-//     // end: "bottom  top",
-//     start: "top 80%", // Starts animation when video enters 80% of viewport
-//     end: "bottom 50%",
-//     scrub: 5,
-//   },
-//   scale:1,
-//   opacity:1
-// });
-
-// gsap.from(".p8_bottom button",{
-//   opacity:.6,
-//   scale:2
-// })
-
-
-//
-// 
-// page 9
-// 
-// 
-
-// gsap.to(".page9",{
-//   scrollTrigger:{
-//     trigger:".page9 .rght",
-//     markers:true,
-//     start: "top 50%",
-//     end:"100% top",
-//     scrub:5,
-//   },
-//   backgroundColor:"#fff",
-//   opacity:.8
-//   // backgroundColor:"#02268E"
-// })
 
 
 
+// Page 10 Canvas side change on scroll
+
+
+// canvas loading speed js
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const canvasSection = document.querySelector(".page10 .rgt canvas");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              loadCanvas();  // Function to initialize canvas
+              observer.disconnect(); // Stop observing after loading
+          }
+      });
+  }, { rootMargin: "200px" }); // Start loading when user is 200px away
+
+  observer.observe(canvasSection);
+});
+
+function loadCanvas() {
+  console.log("Canvas Loading...");
+  // Initialize Three.js or other 3D rendering logic here
+}
 
 
 
-// 
-// 
-// PAGE 10
-// 
-// 
 
 function canvas10() {
   const canvas = document.querySelector(".page10>.rgt>canvas");

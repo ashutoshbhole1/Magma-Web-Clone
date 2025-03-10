@@ -909,3 +909,30 @@ button.anim:hover span.book-copy {
     font-weight: 100;
     z-index: 5;
 }
+
+/* page 14 */
+.page14{
+    background:linear-gradient(#000,#00207e);
+    min-height: 8rem;
+    color: #aaa;
+    font-family: jost;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page14 h4 b{
+    font-weight: 500;
+}
+
+.page14 h4 a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
+.page14 h4{
+    font-size: 1rem;
+    font-weight: 300;
+}
