@@ -1321,12 +1321,12 @@ button.anim:hover span.book-copy {
     }
 
     .page12 .marque {
-        /* height: 6.2rem; */
+        height: 6.2rem ;
     }
 
     .page12 .marque img {
         /* height: 5.5rem; */
-        height: 90%;
+        height: 4.5rem;
         margin-right: 9rem;
     }
 
