@@ -323,6 +323,7 @@ button.anim:hover span.book-copy {
     position: relative;
     min-height: 100vh;
     width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,6 +353,16 @@ button.anim:hover span.book-copy {
     background-color: #0a3bce7e;
     border: 1px solid #fff;
 }
+
+.page7 canvas{
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 /* page 8 txt 3d video bg */
@@ -1310,7 +1321,7 @@ button.anim:hover span.book-copy {
     }
 
     .page12 .marque {
-        height: 6rem;
+        /* height: 6.2rem; */
     }
 
     .page12 .marque img {
